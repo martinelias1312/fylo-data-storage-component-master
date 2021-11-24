@@ -16,29 +16,32 @@
 </head>
 <body>
   <main>
-    <div class="icons-bar">
+    <div class="wrapper">
+      <div class="icons-bar">
+        
+        <img src="/assets/img/logo.svg" alt="">
+        
+        <ul class="icons">
+          <li>
+            <a href="#" class="document"></a>
+          </li>
+          <li>
+            <a href="#" class="folder"></a>
+          </li>
+          <li>
+            <a href="#" class="upload"></a>
+          </li>
+        </ul>
+      </div>
       
-      <img src="/assets/img/logo.svg" alt="">
-      
-      <ul class="icons">
-        <li>
-          <a href="#" class="document"></a>
-        </li>
-        <li>
-          <a href="#" class="folder"></a>
-        </li>
-        <li>
-          <a href="#" class="upload"></a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="storage-bar">
-      185 GB Left
-      <p>You’ve used 815 GB of your storage</p>
+      <div class="storage-bar">
+        <div class="storage-left">185 GB Left</div>
+        
+        <p>You’ve used <span>815 GB</span> of your storage</p>
 
-      <progress max="1000" value="815">0 GB 1000 GB</progress>
+        <progress max="1000" value="815">0 GB 1000 GB</progress>
 
+      </div>
     </div>
   </main>
 
