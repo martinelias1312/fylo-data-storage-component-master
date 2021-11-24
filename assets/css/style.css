@@ -151,7 +151,12 @@ progress {
 }
 
 @media screen and ( max-width: 540px ) {
+    body {
+        background: url(/assets/img/bg-mobile.png);
+    }
+
     .storage-bar {
         max-width: 23em;
     }
+
 }
