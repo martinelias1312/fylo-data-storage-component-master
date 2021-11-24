@@ -169,6 +169,20 @@ progress {
 
     .storage-bar {
         max-width: 23em;
+        min-width: 0;
     }
 
+    progress {
+        min-width: 17em;
+    }
+
+    .storage-text {
+        display: inline-block;
+    }
+
+    .storage-left {
+        left: 2em;
+        max-width: 13em;
+        padding: 0.5em;
+    }
 }
