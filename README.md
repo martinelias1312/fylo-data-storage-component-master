@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+![375px](assets\img\375px-Frontend-Mentor-Fylo-data-storage-component.png)  
+![1440px](assets\img\1440px-Frontend-Mentor-Fylo-data-storage-component.png)  
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/data-storage-component-with-flexbox-and-responsive-layout-AwIA-yZZQ](https://www.frontendmentor.io/solutions/data-storage-component-with-flexbox-and-responsive-layout-AwIA-yZZQ)
+- Live Site URL: [https://fylo-data-storage-component-master-ten-phi.vercel.app/](https://fylo-data-storage-component-master-ten-phi.vercel.app/)
 
 ## My process
 
