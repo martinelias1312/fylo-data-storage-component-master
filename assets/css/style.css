@@ -1,7 +1,7 @@
 /* General Settings */
 :root {
     /*colors */
-    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --Gradient: linear-gradient(to right, hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
     --Pale-Blue: hsl(243, 100%, 93%);
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
@@ -86,7 +86,8 @@ main {
 
 /* Storage Bar */
 .storage-bar {
-    padding: 0 15em 2em 2em;
+    min-width: 35em;
+    padding: 1em;
     color: var(--Pale-Blue);
     font-weight: 400;
 }
@@ -101,6 +102,33 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.storage-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.storage-left h1{
+    color: #222;
+    font-size: 3em;
+    margin: 0 0.5em 0 0;
+}
+
+.storage-left p {
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Progress Bar */
+progress {
+    border-radius: 1em;
 }
 
 /* Min - max */
