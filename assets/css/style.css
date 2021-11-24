@@ -188,6 +188,7 @@ progress {
 
     .storage-left {
         left: 2em;
+        top: 8.5em;
         max-width: 13em;
         padding: 0.5em;
     }
