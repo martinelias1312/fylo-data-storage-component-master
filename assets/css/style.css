@@ -32,8 +32,10 @@ body {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
     min-height: 100vh;
 }
 
@@ -44,22 +46,35 @@ main {
 }
 
 /* Icons Bar */
+.icons-bar {
+    padding: 3em;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     list-style: none;
+    margin: 2em 0 0 0;
+    padding: 0;
 }
 
 .document {
-    background: url(/assets/img/icon-document.svg) no-repeat;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-document.svg) no-repeat;
+    padding: 1em;
+    border-radius: 1em;
 }
 
 .folder {
-    background: url(/assets/img/icon-folder.svg) no-repeat;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-folder.svg) no-repeat;
+    padding: 1em;
+    border-radius: 1em;
 }
 
 .upload {
-    background: url(/assets/img/icon-upload.svg) no-repeat;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-upload.svg) no-repeat;
+    padding: 1em;
+    border-radius: 1em;
 }
 
 /* Footer Signature */
