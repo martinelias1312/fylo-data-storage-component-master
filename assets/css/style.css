@@ -22,6 +22,8 @@ body {
     max-width: var(--Desktop);
     font-size: var(--Font-size);
     font-family: 'Raleway', sans-serif;
+    background: url(/assets/img/bg-desktop.png) no-repeat bottom; 
+    background-color: var(--Very-Dark-Blue);
 }
 
 /* Footer Signature */
