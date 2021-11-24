@@ -28,15 +28,20 @@ body {
     background: var(--Very-Dark-Blue) url(/assets/img/bg-desktop.png) no-repeat bottom;
 }
 
-/* Main */
+/* Main + wrapper */
 main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    max-width: 60%;
     min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2em;
+    max-width: max-content;
 }
 
 /* Both bars settings */
@@ -54,7 +59,7 @@ main {
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     margin: 3em 0 0 0;
     padding: 0;
@@ -77,6 +82,20 @@ main {
     background: var(--Very-Dark-Blue) url(/assets/img/icon-upload.svg) no-repeat center center;
     padding: 1em 2em 1em 1em;
     border-radius: 0.5em;
+}
+
+/* Storage Bar */
+.storage-bar {
+    padding: 3em 15em 2em 2em;
+}
+
+.storage-bar p, .storage-bar span {
+    color: var(--Pale-Blue);
+    font-weight: 400;
+}
+
+.storage-bar span {
+    font-weight: 700;
 }
 
 /* Footer Signature */
