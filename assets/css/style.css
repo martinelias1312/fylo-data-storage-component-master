@@ -96,6 +96,13 @@ main {
     font-weight: 700;
 }
 
+/* Storage Text */
+.storage-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Min - max */
 .min-max {
     display: flex;
