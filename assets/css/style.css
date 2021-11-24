@@ -1,10 +1,13 @@
 /* General Settings */
 :root {
+    /*colors */
     --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
     --Pale-Blue: hsl(243, 100%, 93%);
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
     --Very-Dark-Blue: hsl(229, 57%, 11%);
+
+    /* settings */
     --Mobile: 375px;
     --Desktop: 1440px;
     --Font-size: 14px
@@ -19,11 +22,44 @@ html {
 }
 
 body {
-    max-width: var(--Desktop);
+    max-width: 100%;
     font-size: var(--Font-size);
     font-family: 'Raleway', sans-serif;
-    background: url(/assets/img/bg-desktop.png) no-repeat bottom; 
-    background-color: var(--Very-Dark-Blue);
+    background: var(--Very-Dark-Blue) url(/assets/img/bg-desktop.png) no-repeat bottom;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Both bars settings */
+.icons-bar, .storage-bar {
+    background: var(--Dark-Blue);
+    border-radius: 1em;
+}
+
+/* Icons Bar */
+.icons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.document {
+    background: url(/assets/img/icon-document.svg) no-repeat;
+}
+
+.folder {
+    background: url(/assets/img/icon-folder.svg) no-repeat;
+}
+
+.upload {
+    background: url(/assets/img/icon-upload.svg) no-repeat;
 }
 
 /* Footer Signature */
