@@ -1,0 +1,30 @@
+/* General Settings */
+:root {
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+    --Mobile: 375px;
+    --Desktop: 1440px;
+    --Font-size: 14px
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    max-width: var(--Desktop);
+    font-size: var(--Font-size);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Footer Signature */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
