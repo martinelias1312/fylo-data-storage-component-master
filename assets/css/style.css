@@ -92,7 +92,7 @@ main {
     font-weight: 400;
 }
 
-.storage-bar span, .min-max p {
+.storage-bar em, .min-max p {
     color: var(--Pale-Blue);
     font-weight: 700;
 }
@@ -113,6 +113,8 @@ main {
     background: white;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     padding: 1em;
+    position: relative;
+    top: -4em;
 }
 
 .storage-left h1{
@@ -129,8 +131,10 @@ main {
 
 /* Progress Bar */
 progress {
-    border-radius: 1em;
     min-width: 29em;
+    background: var(--Very-Dark-Blue);
+    border-color: var(--Very-Dark-Blue);
+    border-radius: 1em;
 }
 
 /* Min - max */
