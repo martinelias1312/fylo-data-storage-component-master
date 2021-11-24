@@ -86,16 +86,21 @@ main {
 
 /* Storage Bar */
 .storage-bar {
-    padding: 3em 15em 2em 2em;
-}
-
-.storage-bar p, .storage-bar span {
+    padding: 0 15em 2em 2em;
     color: var(--Pale-Blue);
     font-weight: 400;
 }
 
-.storage-bar span {
+.storage-bar span, .min-max p {
+    color: var(--Pale-Blue);
     font-weight: 700;
+}
+
+/* Min - max */
+.min-max {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Footer Signature */
