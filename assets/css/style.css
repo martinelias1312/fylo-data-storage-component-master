@@ -47,7 +47,8 @@ main {
 
 /* Icons Bar */
 .icons-bar {
-    padding: 3em;
+    padding: 3em 9em 3em 3em;
+    border-top-right-radius: 8em;
 }
 
 .icons {
@@ -55,26 +56,27 @@ main {
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
     padding: 0;
 }
 
 .document {
-    background: var(--Very-Dark-Blue) url(/assets/img/icon-document.svg) no-repeat;
-    padding: 1em;
-    border-radius: 1em;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-document.svg) no-repeat center center;
+    padding: 1em 2em 1em 1em;
+    border-radius: 0.5em;
 }
 
 .folder {
-    background: var(--Very-Dark-Blue) url(/assets/img/icon-folder.svg) no-repeat;
-    padding: 1em;
-    border-radius: 1em;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-folder.svg) no-repeat center center;
+    padding: 1em 2em 1em 1em;
+    border-radius: 0.5em;
+    margin: 0 1em;
 }
 
 .upload {
-    background: var(--Very-Dark-Blue) url(/assets/img/icon-upload.svg) no-repeat;
-    padding: 1em;
-    border-radius: 1em;
+    background: var(--Very-Dark-Blue) url(/assets/img/icon-upload.svg) no-repeat center center;
+    padding: 1em 2em 1em 1em;
+    border-radius: 0.5em;
 }
 
 /* Footer Signature */
