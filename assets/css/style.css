@@ -154,6 +154,11 @@ progress {
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .storage-left {
+        top: 9em;
+        right: 8em;
+    }
 }
 
 @media screen and ( max-width: 540px ) {
