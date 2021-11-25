@@ -1,7 +1,7 @@
 /* General Settings */
 :root {
     /*colors */
-    --Gradient: linear-gradient(to right, hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+    --Gradient: linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     --Pale-Blue: hsl(243, 100%, 93%);
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
@@ -132,7 +132,7 @@ main {
 /* Progress Bar */
 progress {
     min-width: 29em;
-    background: var(--Very-Dark-Blue);
+    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-color: var(--Very-Dark-Blue);
     border-radius: 1em;
 }
